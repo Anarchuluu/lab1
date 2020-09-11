@@ -1,0 +1,35 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Merriweather', serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #2ec194;
+}
+.con .box{
+	position: relative;
+	width: 300px;
+	height: 200px;
+	margin: 40px 0;
+	background: #fff;
+	font-family: 'Merriweather', serif;
+	font-size: 4em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(205,204,228);
+	background: linear-gradient(90deg, rgba(205,204,228,1) 0%, rgba(255,170,0,1) 0%, rgba(127,255,0,1) 100%);
+}
+.con .box.a{
+	box-shadow: 30px 30px 20px rgba(0,0,0,0.3);
+}
+.con .box.b{
+	background: #2ec194;
+	border-radius: 20px;
+	 box-shadow: 5px 10px black;
+	}

@@ -1,0 +1,40 @@
+* {
+  font-family: Tahoma;
+  font-size: 40px;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  height:80vh;
+  margin: 50px 200px ;
+}
+.con1 {
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.con2 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.box {
+  width: 100px;
+  height: 150px;
+  text-align: left;
+  background-color: #eeeff2;
+  border-left: 10px dotted #d0d0ff;
+}
+.box:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: goldenrod;
+}
+p {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+}
